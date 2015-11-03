@@ -1,22 +1,4 @@
-#include <iostream>
-#include <string.h>
-#include <vector>
-
-using namespace std;
-
-void print_vector(vector<int>& arr)
-{
-	for(unsigned i=0;i<arr.size();i++)
-		cout<<arr[i]<<" ";
-	cout<<endl;
-}
-
-void swap (vector<int>& arr, int i, int j)
-{
-	int temp = arr[i];
-	arr[i] = arr[j];
-	arr[j] = temp;
-}
+#include "common_utils.h"
 
 void DutchPartition(vector<int>& arr, int pivot_index)
 {
@@ -42,7 +24,7 @@ void DutchPartition(vector<int>& arr, int pivot_index)
 
 }
 
-int main()
+/*int main()
 {
 	int myints[] = {2,1,3,1,2,3,3,1,2,3,1,1,2};
 	vector<int> arr (myints,myints + sizeof(myints)/sizeof(int));
@@ -50,4 +32,4 @@ int main()
 	DutchPartition(arr,0);
 	print_vector(arr);
 	return 0;
-}
+}*/
