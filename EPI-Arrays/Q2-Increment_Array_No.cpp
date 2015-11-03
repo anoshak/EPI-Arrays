@@ -21,6 +21,7 @@ vector<int> increment(vector<int>& nums) {
 	return nums;
 }
 
+/*
 int main()
 {
 	int myint[] = {9,9,9,9};
@@ -30,6 +31,7 @@ int main()
 	print_vector(result);
 	return 0;
 }
+*/
 
 
 

@@ -11,6 +11,9 @@
 #include <iostream>
 #include <string.h>
 #include <vector>
+#include<algorithm>
+#include<map>
+#include<unordered_map>
 
 using namespace std;
 
