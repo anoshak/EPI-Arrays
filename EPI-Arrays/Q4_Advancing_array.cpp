@@ -11,7 +11,7 @@ bool canReachEnd(vector<int>& nums)
 {
 	int furthest_index = 0;
 	int end = nums.size();
-	for(int i=0;i<end;i++)
+	for(int i=0;i<=furthest_index && furthest_index<end;i++)
 	{
 		furthest_index = max(furthest_index,nums[i] + i);
 	}
