@@ -44,6 +44,7 @@ vector<int> spiral(vector<vector<int> >& matrix)
 	result.insert(result.end(),rec_result.begin(),rec_result.end());
 	return result;
 }
+/*
 
 int main()
 {
@@ -64,4 +65,5 @@ int main()
 	print_vector(result);
 
 }
+*/
 
