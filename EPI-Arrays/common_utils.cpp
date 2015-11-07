@@ -6,6 +6,17 @@
  */
 #include "common_utils.h"
 
+void print_vector_matrix(vector<vector<int> >& arr)
+{
+	for(int i=0;i<arr.size();i++)
+	{
+		for(int j=0;j<arr[0].size();j++)
+		{
+			cout<<arr[i][j]<<" ";
+		}
+		cout<<endl;
+	}
+}
 void print_vector(vector<int>& arr)
 {
 	for(unsigned i=0;i<arr.size();i++)

@@ -21,6 +21,7 @@
 using namespace std;
 
 void print_vector(vector<int>& arr);
+void print_vector_matrix(vector<vector<int> >& arr);
 void swap (vector<int>& arr, int i, int j);
 
 #endif /* COMMON_UTILS_H_ */
